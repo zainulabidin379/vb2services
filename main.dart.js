@@ -80776,7 +80776,7 @@ m=A.iw(16)
 r=s?16:24
 q=A.cX().$3$color$fontSize$fontWeight(B.a4,24,B.a7)
 p=t.p
-return A.anH(new A.c_(new A.aj(r,r,r,r),A.dB(A.b([A.bd("Contact Information",n,n,n,q.Ez(s?20:22,B.a7),n,n),B.k9,o.AU("info@vb2services.com",B.n1,new A.aeC(o),"Email"),B.mh,o.AU("+1 (555) 123-4567",B.Fj,new A.aeD(o),"Phone"),B.mh,o.AU("123 Business Street, City, State 12345",B.Fe,new A.aeE(o),"Address"),B.OG,A.bd("Follow Us",n,n,n,A.cX().$3$color$fontSize$fontWeight(B.a4,24,B.a7).kr(18),n,n),B.bE,A.i6(A.b([o.vs(B.ER,B.aw,"https://facebook.com"),o.vs(B.ES,B.lI,"https://twitter.com"),o.vs(B.EP,B.m2,"https://instagram.com"),o.vs(B.EQ,B.ff,"https://linkedin.com")],p),B.a5,B.V,B.a_)],p),B.aA,B.V,B.a_),n),4,new A.c8(m,B.q))},
+return A.anH(new A.c_(new A.aj(r,r,r,r),A.dB(A.b([A.bd("Contact Information",n,n,n,q.Ez(s?20:22,B.a7),n,n),B.k9,o.AU("info@vb2services.com",B.n1,new A.aeC(o),"Email"),B.mh,o.AU("+44 7535 403 053",B.Fj,new A.aeD(o),"Phone"),B.mh,o.AU("616 Coventry Road, B100UT, Birmingham, UK",B.Fe,new A.aeE(o),"Address"),B.OG,A.bd("Follow Us",n,n,n,A.cX().$3$color$fontSize$fontWeight(B.a4,24,B.a7).kr(18),n,n),B.bE,A.i6(A.b([o.vs(B.ER,B.aw,"https://facebook.com"),o.vs(B.ES,B.lI,"https://twitter.com"),o.vs(B.EP,B.m2,"https://instagram.com"),o.vs(B.EQ,B.ff,"https://linkedin.com")],p),B.a5,B.V,B.a_)],p),B.aA,B.V,B.a_),n),4,new A.c8(m,B.q))},
 AU(a,b,c,d){var s,r,q,p,o,n=null,m=this.c
 m.toString
 s=A.b5(m,n,t.w).w.a.a<600
@@ -80830,10 +80830,10 @@ A.aeC.prototype={
 $0(){return this.a.mD("mailto:info@vb2services.com")},
 $S:0}
 A.aeD.prototype={
-$0(){return this.a.mD("tel:+15551234567")},
+$0(){return this.a.mD("tel:+447535403053")},
 $S:0}
 A.aeE.prototype={
-$0(){return this.a.mD("https://maps.google.com/?q=123+Business+Street,+City,+State+12345")},
+$0(){return this.a.mD("https://maps.google.com/?q=616+Coventry+Road,+B100UT,+Birmingham,+UK")},
 $S:0}
 A.aeF.prototype={
 $0(){return this.a.mD(this.b)},

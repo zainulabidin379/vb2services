@@ -66,11 +66,19 @@
       z-index: 9999;
     }
     
+    .loading-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
     .loading-text {
       font-family: 'Arial', sans-serif;
       font-size: 24px;
       color: white;
       margin-top: 16px;
+      text-align: center;
     }
     
     .spinner {
@@ -80,6 +88,7 @@
       border-radius: 50%;
       border-top-color: white;
       animation: spin 1s ease-in-out infinite;
+      margin: 0 auto;
     }
     
     @keyframes spin {
@@ -90,7 +99,7 @@
 <body>
   <!-- Loading spinner that shows while Flutter loads -->
   <div class="loading" id="loading">
-    <div>
+    <div class="loading-container">
       <div class="spinner"></div>
       <div class="loading-text">Loading VB2 Services...</div>
     </div>
